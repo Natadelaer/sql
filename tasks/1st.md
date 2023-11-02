@@ -4,3 +4,4 @@
     <img src="image.png" width="600" height="600"/>
 <h2> Задание 2 </h2>
   <p> Откройте ER-диаграмму таблиц учебной базы данных dvd-rental. Сделайте скриншот результата. </p>
+  <img src = "https://github.com/Natadelaer/sql/assets/60326163/7524b171-1214-4b6e-95a3-88e85278da57">
