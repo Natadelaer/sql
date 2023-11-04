@@ -41,8 +41,28 @@
         <td>city_id</td>
     </tr>
     <tr>
+        <td>rental</td>
+        <td>rental_id</td>
+    </tr>
+    <tr>
+        <td>payment</td>
+        <td>payment_id</td>
+    </tr>
+    <tr>
+        <td>language</td>
+        <td>language_id</td>
+    </tr>
+    <tr>
+        <td>film_actor</td>
+        <td>film_actor_id</td>
+    </tr>
+    <tr>
         <td>film</td>
         <td>film_id</td>
+    </tr>
+    <tr>
+        <td>staff</td>
+        <td>staff_id</td>
     </tr>
     <tr>
         <td>store</td>
@@ -54,3 +74,27 @@
     </tr>
 
 </table>
+<h2> Задание 4 </h2>
+  <p> Выполните SQL-запрос к учебной базе данных dvd-rental “SELECT * FROM country;”. Сделайте скриншот результата. </p>
+ <img width="990" alt="image" src="https://github.com/Natadelaer/sql/assets/60326163/075d1fbb-0a4f-4077-a8ee-94108e474ab4">
+
+ <h1> Дополнительное задание</h1>
+  <h2> Задание 1 </h2>
+  <p> Установите локальный сервер PostgreSQL, восстановите учебные данные согласно инструкции и повторите задания 2–4 из основной части домашнего задания на локальной базе данных. Сделайте все необходимые скриншоты. Если вы изначально установили локальный сервер, то можете сразу приступать к следующему заданию. </p>
+
+  <p> Вроде бы из скриншотов выше видно, что я изначально установила локальный сервер.
+  На всякий случай прикладываю наличие локалки</p>
+  <img width="415" alt="image" src="https://github.com/Natadelaer/sql/assets/60326163/814ddc48-1616-46ff-ab6d-b5c91ff1d1df">
+
+
+  <h2> Задание 2 </h2>
+  <p> С помощью SQL-запроса выведите в результат таблицу, содержащую названия таблиц и названия ограничений первичных ключей в этих таблицах. Для написания запроса используйте представление information_schema.table_constraints.
+
+ </p>
+  <img width="512" alt="image" src="https://github.com/Natadelaer/sql/assets/60326163/5baae8ca-b3ab-458d-892f-054ab1ea8a8e">
+  <code>
+    SELECT table_name, constraint_name FROM information_schema.table_constraints WHERE constraint_type = 'PRIMARY KEY' AND table_schema = 'public';
+  </code>
+
+
+  
