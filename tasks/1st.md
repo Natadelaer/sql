@@ -7,6 +7,8 @@
   <img src = "https://github.com/Natadelaer/sql/assets/60326163/7524b171-1214-4b6e-95a3-88e85278da57">
 <h2> Задание 3</h2>
   <p> Перечислите все таблицы учебной базы данных dvd-rental и столбцы, которые имеют ограничения первичных ключей для этих таблиц. Запишите решение в формате таблицы: letsdocode.ru...in/1-3.png </p>
+
+  <p> Увидела ошибку с film_actor и film_category </p>
   <table>
     <tr>
         <td>название таблицы</td>
@@ -54,7 +56,7 @@
     </tr>
     <tr>
         <td>film_actor</td>
-        <td>film_actor_id</td>
+        <td>film_id и actor_if</td>
     </tr>
     <tr>
         <td>film</td>
@@ -70,7 +72,7 @@
     </tr>
     <tr>
         <td>film_category</td>
-        <td>film_category_id</td>
+        <td>film_id и category_id</td>
     </tr>
 
 </table>
