@@ -56,7 +56,7 @@
     </tr>
     <tr>
         <td>film_actor</td>
-        <td>film_id и actor_if</td>
+        <td>film_id и actor_id</td>
     </tr>
     <tr>
         <td>film</td>
